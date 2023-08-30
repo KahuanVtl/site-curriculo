@@ -1,0 +1,36 @@
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #24292F;
+}
+
+.banner-nome, .banner-sobrenome {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Krona One';
+}
+
+.banner-nome{
+    font-size: 4.375rem;
+    margin: 0;
+}
+
+.banner-sobrenome {
+    font-size: 3rem;
+    justify-content: center;
+    margin: 0;
+}
+
+.banner-imagem {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin: 0.3rem;
+}
+
+.banner-sobrenome-imagens{
+    align-items: center;
+    display: flex;
+}

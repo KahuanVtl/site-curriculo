@@ -1,0 +1,43 @@
+.resume-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #24292F;
+    margin: 0;
+}
+
+.resume-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-text {
+    flex: 1;
+    padding: 1rem;
+}
+
+.resume-title{
+    color: #EBC556;
+    font-family: 'Krona One';
+    font-size: 2.25rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.resume-text-p{
+    color: #F7F9F8;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.resume-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+

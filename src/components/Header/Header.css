@@ -1,5 +1,5 @@
 .header-container {
-    background-color: #24292F;
+    background-color: #F7F9F8;
     display: flex;
     justify-content: center;
 }
@@ -10,12 +10,14 @@
     padding: 0;
     justify-content: center;
     width: 100%;
-    padding: 1rem;
 }
 
 .header-link {
     text-decoration: none;
-    color: #F7F9F8;
+    color: #24292F;
     margin-right: auto; /* Empurra os elementos para o centro */
     padding: 2rem;
+    font: 500;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
 }

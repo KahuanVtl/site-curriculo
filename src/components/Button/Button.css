@@ -1,0 +1,18 @@
+.button-container {
+    background-color: #EBC556;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.button-title{
+    padding: 1rem 2rem;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #F7F9F8;
+}
