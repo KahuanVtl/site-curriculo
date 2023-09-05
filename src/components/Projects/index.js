@@ -17,8 +17,8 @@ function Projects() {
                         <h2 className='projects-text-title'>Titulo do Projeto</h2>
                         <p className='projects-text-p'>Descrição do projeto</p>
                         <p className='projects-text-p'>Tecnologias Usadas:</p>
-                        <div className='resume-button'>
-                            <a href='/'><Button className='projects-button'></Button></a>
+                        <div className='projects-button-padding'>
+                            <a href='/' className='projects-button'><Button></Button></a>
                         </div>
                     </div>
 
@@ -29,8 +29,8 @@ function Projects() {
                         <h2 className='projects-text-title'>Titulo do Projeto</h2>
                         <p className='projects-text-p'>Descrição do projeto</p>
                         <p className='projects-text-p'>Tecnologias Usadas:</p>
-                        <div className='resume-button'>
-                        <a href='/'><Button className='projects-button'></Button></a>
+                        <div className='projects-button-padding'>
+                        <a href='/' className='projects-button'><Button></Button></a>
                         </div>
                     </div>
                     <div className='projects-image'>
@@ -47,8 +47,8 @@ function Projects() {
                         <h2 className='projects-text-title'>Titulo do Projeto</h2>
                         <p className='projects-text-p'>Descrição do projeto</p>
                         <p className='projects-text-p'>Tecnologias Usadas:</p>
-                        <div className='resume-button'>
-                        <a href='/'><Button className='projects-button'></Button></a>
+                        <div className='projects-button-padding'>
+                        <a href='/' className='projects-button'><Button></Button></a>
                         </div>
                     </div>
 

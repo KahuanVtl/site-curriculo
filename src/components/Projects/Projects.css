@@ -44,3 +44,14 @@
     color: #F7F9F8;
     margin-bottom: 3.5rem;
 }
+
+.projects-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Adicione esta linha */
+}
+
+.projects-button-padding{
+    padding-top: 1.5rem;
+}

@@ -1,0 +1,27 @@
+.AtualProject-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AtualProject-title {
+    font-family: 'Krona One';
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0 2rem 0;
+    font-size: 2.25rem;
+}
+
+.AtualProject-img {
+    width: 50rem;
+    height: 30rem;
+    padding-bottom: 5rem;
+}
+
+.AtualProject-button {
+    position: relative;
+    bottom: 11rem;
+    left: 19rem;
+}

@@ -1,3 +1,4 @@
+import AtualProject from "./components/AtualProject";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
@@ -11,6 +12,7 @@ function App() {
         <Banner/>
         <Resume/>
         <Projects/>
+        <AtualProject/>
     </div>
   );
 }
