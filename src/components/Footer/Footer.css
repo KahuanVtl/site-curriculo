@@ -1,0 +1,12 @@
+.footer-container{
+    background-color: #F7F9F8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title{
+    font-size: 0.85rem;
+    font-family: 'Montserrat';
+    padding: 1rem;
+    margin: 0;
+}

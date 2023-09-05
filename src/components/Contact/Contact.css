@@ -1,0 +1,60 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 8rem;
+}
+
+.contact-title{
+    color: #EBC556;
+    font-size: 2.25rem;
+    font-family: 'Krona One';
+    padding-bottom: 1.125rem;
+    margin: 0;
+}
+
+.contact-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-subtitle{
+    color: #FFFFFF;
+    font-size: '2.25rem';
+    font-family: 'Krona One';
+}
+
+.contact-information-container{
+    padding-bottom: 8rem;
+}
+
+.contact-input-email,
+.contact-input-whatsapp {
+    background: transparent;
+    border: 1px solid #FFF;
+    padding: 1.2rem 6rem;
+    border-radius: 3.125em;
+    width: 10rem;
+    color: #FFF;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.contact-input-whatsapp::placeholder {
+    color: #FFF;
+    font-size: 1.4rem;
+    background: url('./images/174879\ 1.svg') no-repeat left center;
+    padding: 3em 3em 3em 2.5em;
+    background-size: auto 2rem; 
+}
+
+.contact-input-email::placeholder {
+    color: #FFF;
+    font-size: 1.4rem;
+    background: url('./images/Frame\ 8.svg') no-repeat left center;
+    padding: 3em 3em 3em;
+    background-size: auto 2rem; 
+}

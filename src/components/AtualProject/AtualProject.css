@@ -17,11 +17,10 @@
 .AtualProject-img {
     width: 50rem;
     height: 30rem;
-    padding-bottom: 5rem;
 }
 
 .AtualProject-button {
     position: relative;
-    bottom: 11rem;
+    bottom: 6rem;
     left: 19rem;
 }

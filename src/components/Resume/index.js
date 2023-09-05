@@ -13,9 +13,7 @@ function Resume() {
                 <p className='resume-text-p'>Olá, prazer em conhecer você, eu me chamo Kahuan e sou desenvolvedor Fullstack.</p>
                 <p className='resume-text-p'>Aqui você verá todo meu portfólio, como também meios de comunicações e projetos em construção.</p>
                 <p className='resume-text-p'>Sinta-se a vontade para entrar em contato para conversarmos e codar juntos! </p>
-                <div className='resume-button'>
-                    <Button></Button>
-                </div>
+                <a href='/' alt=''  className='resume-button'><Button></Button></a>
             </div>
 
         </div>
