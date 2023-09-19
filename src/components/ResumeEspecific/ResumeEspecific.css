@@ -71,3 +71,30 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+.project-text-p1,
+.project-text-p,
+.project-text-subtitle{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.project-text-subtitle{
+    color: #FFFFFF;
+    font-family:'Krona One';
+    margin: 1rem 0 0 0;
+}
+
+.project-text-p{
+    color: #FFFFFF;
+    font-family: 'MontSerrat';
+}
+
+.project-text-p1{
+    color: #FFFFFF;
+    font-family: 'MontSerrat';
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+}
