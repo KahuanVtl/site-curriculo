@@ -15,9 +15,13 @@
 .header-link {
     text-decoration: none;
     color: #24292F;
-    margin-right: auto; /* Empurra os elementos para o centro */
+    margin-right: auto;
     padding: 2rem;
     font: 500;
     font-family: 'Montserrat';
     font-size: 1.2rem;
+}
+
+.header-link:hover{
+    text-decoration: overline;
 }

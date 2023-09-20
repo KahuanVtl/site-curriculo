@@ -1,6 +1,6 @@
 import './ResumeEspecific.css'
-import coluna from './images/HabilidadesT.svg'
 import coluna2 from './images/Frame 10.svg'
+import coluna3 from './images/Frame 11 (4).svg'
 
 function ResumeEspecific() {
     return (
@@ -15,7 +15,7 @@ function ResumeEspecific() {
                     <h1 className='project-title'>Habilidades Técnicas</h1>
                     <div className='project-image-text-container'>
                         <div className='project-image'>
-                            <img src={coluna} alt='' />
+                            <img src={coluna3} alt='' />
                         </div>
                         <div className='project-text'>
                             <h2 className='project-text-title'>Desenvolvimento WEB</h2>
@@ -52,7 +52,7 @@ function ResumeEspecific() {
                     <h1 className='project-title'>Línguas</h1>
                     <div className='project-image-text-container'>
                         <div className='project-image'>
-                            <img src={coluna} alt='' />
+                            <img src={coluna3} alt='' />
                         </div>
                         <div className='project-text'>
                             <h2 className='project-text-title'>Língua Portuguesa Nativo</h2>
@@ -86,7 +86,7 @@ function ResumeEspecific() {
                     </div>
                 </div>
                     
-                    
+ 
                 </div>
                 <div className='resume-especific-projects-part-2'>
                     <h1 className='project-title'>Experiência Profissional</h1>
@@ -94,9 +94,11 @@ function ResumeEspecific() {
                         <div className='project-image'>
                             <img src={coluna2} alt='' />
                         </div>
+
+
                         <div className='project-text'>
                             <h2 className='project-text-title'>Assistente de TI</h2>
-                            <p className='project-text-subtitle'>Proshows S.A. (07/2022 - Atualmente)</p>
+                            <p className='project-text-subtitle'>ProShows S.A. (07/2022 - Atualmente)</p>
                             <p className='project-text-p'>Distribuidora de Áudio, Iluminação e Instrumentos.</p>
                             <p className='project-text-p1'>Responsabilidades:</p>
                             <ul className='project-text-ul'>
@@ -106,14 +108,55 @@ function ResumeEspecific() {
                                 <li className='project-text-li'>Desenvolvimento de gráficos para gestão</li>
                             </ul>
                             <p className='project-text-p'>Tecnologias Usadas:</p>
-                            <ul className='project-text-ul'>
+                            <ul className='project-text-ul-p2'>
                                 <li className='project-text-li'>Pacote Office</li>
                                 <li className='project-text-li'>PowerBI</li>
                                 <li className='project-text-li'>Sql Server e MySQL</li>
                                 <li className='project-text-li'>TOTVS</li>
                                 <li className='project-text-li'>Mercanet</li>
                             </ul>
+
+
+                            <div className='project-text'>
+                            <h2 className='project-text-title'>Assistente de Vendas e Logística</h2>
+                            <p className='project-text-subtitle'>Magazine Luiza (03/2022 – 06/2022)</p>
+                            <p className='project-text-p'>Empresa voltada para vareja, comércio e vendas.</p>
+                            <p className='project-text-p1'>Responsabilidades:</p>
+                            <ul className='project-text-ul-p3'>
+                                <li className='project-text-li'>Atendimento ao cliente</li>
+                                <li className='project-text-li'>Recebimento e despacho de cargas e produtos</li>
+                                <li className='project-text-li'>Controle de estoque</li>
+                            </ul>
+            
+
                         </div>
+                        <div className='project-text'>
+                            <h2 className='project-text-title'>Freelancer Logística e Expedição</h2>
+                            <p className='project-text-subtitle'>ProShows S.A. (07/2022 - Atualmente)</p>
+                            <p className='project-text-p'>Distribuidora de Áudio, Iluminação e Instrumentos.</p>
+                            <p className='project-text-p1'>Responsabilidades:</p>
+                            <ul className='project-text-ul'>
+                                <li className='project-text-li'>Carga e Despacho</li>
+                                <li className='project-text-li'>Logística</li>
+                                <li className='project-text-li'>Controle de armazém</li>
+                            </ul>
+                            <p className='project-text-p'>Tecnologias Usadas:</p>
+                            <ul className='project-text-ul-p4'>
+                                <li className='project-text-li'>Pacote Office</li>
+                                <li className='project-text-li'>TOTVS</li>
+                            </ul>
+                        </div>
+                        <div className='project-text'>
+                            <h2 className='project-text-title'>Assistente Técnico de áudio</h2>
+                            <p className='project-text-subtitle'>Darrocha Assistência Técnica (06/2021 - 12/2021)</p>
+                            <p className='project-text-p'>Assistência e Instaladora de Áudio e Iluminação.</p>
+                            <p className='project-text-p1'>Responsabilidades:</p>
+                            <ul className='project-text-ul-p5'>
+                                <li className='project-text-li'>Instalações de produtos profissionais</li>
+                                <li className='project-text-li'>Assistência de produtos profissionais</li>                               
+                            </ul>
+                        </div>
+                        </div>             
                     </div>
                 </div>
             </div>

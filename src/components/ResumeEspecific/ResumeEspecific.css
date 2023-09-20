@@ -30,7 +30,6 @@
     text-align: center;
 }
 
-
 .resume-especific-projects-container{
     display: flex;
     text-align: center;
@@ -42,6 +41,7 @@
     color: #EBC556;
     font-size: 1.75rem;
     font-family: 'Krona One';
+    margin: 5rem 0 1rem 0 ;
 }
 
 .project-image-text-container{
@@ -55,14 +55,34 @@
 
 .project-text-title{
     display: flex;
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 1rem 0;
     color: #FFFFFF;
 }
 
+.project-text-ul-p5,
+.project-text-ul-p4,
+.project-text-ul-p3,
+.project-text-ul-p2,
 .project-text-ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.project-text-ul-p2{
+    margin-bottom: 10rem;
+}
+
+.project-text-ul-p3{
+    margin-bottom: 6rem;
+}
+
+.project-text-ul-p4{
+    margin-bottom: 9rem;
+}
+
+.project-text-ul-p5{
+    margin-bottom: 9rem;
 }
 
 .project-text-li{
@@ -96,5 +116,5 @@
     color: #FFFFFF;
     font-family: 'MontSerrat';
     font-size: 1rem;
-    margin: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
 }

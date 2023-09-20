@@ -1,7 +1,7 @@
 import './Banner.css';
-import Medium from './images/download 1.svg';
-import Linkedin from './images/linkedin (1) 1.svg';
-import Github from './images/social 1.svg';
+import Medium from '../../images/medium.svg';
+import Linkedin from '../../images/linkedin.svg';
+import Github from '../../images/github.svg';
 
 function Banner(){
     return(

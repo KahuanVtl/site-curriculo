@@ -2,6 +2,7 @@
     background-color: #F7F9F8;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .footer-title{
@@ -9,4 +10,114 @@
     font-family: 'Montserrat';
     padding: 1rem;
     margin: 0;
+}
+
+.footer-container-blocs{
+    display: flex;
+    flex-direction: 3 column;
+    justify-content: space-around;
+    padding: 0 0 2rem 0;
+}
+
+.footer-container-copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer-container-images-p1,
+.footer-container-images{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+.footer-container-images-p1{
+    margin: 0 0.2rem 0 0;
+}
+
+.footer-container-ul-p3{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container-ul-p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.footer-container-ul-p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.footer-container-li-p2{
+    margin: 0.3rem;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.footer-container-li-p1{
+    margin: 0 0.6rem;
+}
+
+.coluna {
+    width: 33%;
+    position: relative;
+}
+
+.coluna + .coluna::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -0.4rem;
+    width: 1px;
+    background-color: #000000;
+    margin-top: 2rem;
+}
+
+.footer-container-ul-telefone{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.footer-container-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-container-images:hover{
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer-container-li-p2:hover{
+    font-size: 1.2rem;
 }

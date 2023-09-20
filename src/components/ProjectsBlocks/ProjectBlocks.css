@@ -1,0 +1,54 @@
+.projects-blocks-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Krona One';
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.projects-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 0 2rem 0;
+    margin-top: 3rem;
+}
+
+.projects-blocks-coluna {
+    flex-basis: 30%;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.project-blocks-images {
+    width: 100%;
+    height: auto;
+    border: 3px solid #000;
+}
+
+.project-blocks-name {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: #FFF;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.project-blocks-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.project-blocks-icons-img {
+    width: 3rem;
+    padding: 0.1rem 0.5rem;
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+.project-blocks-icons-img:hover{
+    width: 3.2rem;
+    height: 3.2rem;
+}

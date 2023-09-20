@@ -46,7 +46,7 @@
 .contact-input-whatsapp::placeholder {
     color: #FFF;
     font-size: 1.4rem;
-    background: url('./images/174879\ 1.svg') no-repeat left center;
+    background: url('../../images/whatsapp.svg') no-repeat left center;
     padding: 3em 3em 3em 2.5em;
     background-size: auto 2rem; 
 }
@@ -54,7 +54,7 @@
 .contact-input-email::placeholder {
     color: #FFF;
     font-size: 1.4rem;
-    background: url('./images/Frame\ 8.svg') no-repeat left center;
+    background: url('../../images/emailBranco.png') no-repeat left center;
     padding: 3em 3em 3em;
     background-size: auto 2rem; 
 }
