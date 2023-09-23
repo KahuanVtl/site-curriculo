@@ -33,27 +33,27 @@ export default class Carrossel extends React.Component {
             className='swiper-container'
             >
                 <SwiperSlide className='slide-item'>
-                    <img src={require('../../images/imagem1.jpg')} alt='Foto' />
+                    <img src={require('../Projects/images/IMAGEM TV CELULAR.svg')} alt='Foto' />
                 </SwiperSlide>
 
                 <SwiperSlide className='slide-item'>
-                    <img src={require('../../images/imagem2.jpg')} alt='Foto' />
+                    <img src={require('../../images/WhatsApp Image 2023-08-27 at 21.48 1.png')} alt='Foto' />
                 </SwiperSlide>
 
                 <SwiperSlide className='slide-item'>
-                    <img src={require('../../images/imagem3.jpg')} alt='Foto' />
+                    <img src={require('../../images/WhatsApp Image 2023-08-27 at 21.48 1.png')} alt='Foto' />
                 </SwiperSlide>
 
                 <SwiperSlide className='slide-item'>
-                    <img src={require('../../images/imagem1.jpg')} alt='Foto' />
+                    <img src={require('../../images/WhatsApp Image 2023-08-27 at 21.48 1.png')} alt='Foto' />
                 </SwiperSlide>
 
                 <SwiperSlide className='slide-item'>
-                    <img src={require('../../images/imagem2.jpg')} alt='Foto' />
+                    <img src={require('../../images/WhatsApp Image 2023-08-27 at 21.48 1.png')} alt='Foto' />
                 </SwiperSlide>
 
                 <SwiperSlide className='slide-item'>
-                    <img src={require('../../images/imagem3.jpg')} alt='Foto' />
+                    <img src={require('../../images/WhatsApp Image 2023-08-27 at 21.48 1.png')} alt='Foto' />
                 </SwiperSlide>
 
                 

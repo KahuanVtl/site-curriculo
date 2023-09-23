@@ -1,19 +1,28 @@
+import CopyToClipboard from 'react-copy-to-clipboard';
 import './Contact.css';
 
 function Contact(){
+
+    const email = 'kahuanvitelli@gmail.com';
+    const telefone = '51998747003';
+
+    const handleCopy = () => {
+        alert("Copiado com sucesso!")
+    };
+
     return(
         <div className='contact-container'>
             <h2 className='contact-title'>Entre em contato comigo!</h2>
-            <div className='contact-information-container'>
-            <div className='contact-information'>
-                <h2 className='contact-subtitle'>Email</h2>
-                <input placeholder='E-mail' className='contact-input-email'></input>
-            </div>
-            <div className='contact-information'>
-                <h2 className='contact-subtitle'>Ou Whatsapp</h2>
-                <input placeholder='Telefone' className='contact-input-whatsapp'></input>
-            </div>
-            </div>
+            <CopyToClipboard text={email} onCopy={handleCopy}>
+                <span>
+                    Clique aqui para copiar o email!
+                </span>
+            </CopyToClipboard>
+            <CopyToClipboard text={telefone} onCopy={handleCopy}>
+                <span>
+                    Clique aqui para copiar o Celular!
+                </span>
+            </CopyToClipboard>
         </div>
     )
 }

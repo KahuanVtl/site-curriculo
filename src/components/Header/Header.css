@@ -12,16 +12,20 @@
     width: 100%;
 }
 
+.header-li{
+    margin: 0 2.5rem 0 2.5rem;
+}
+
 .header-link {
     text-decoration: none;
     color: #24292F;
     margin-right: auto;
-    padding: 2rem;
-    font: 500;
     font-family: 'Montserrat';
+    font-weight: 500;
     font-size: 1.2rem;
+    transition: transform 0.3s;
 }
 
-.header-link:hover{
+.header-link:hover {
     text-decoration: overline;
 }

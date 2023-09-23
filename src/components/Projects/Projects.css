@@ -36,13 +36,13 @@
 .projects-text-title{
     font-family: 'Krona One';
     color: #EBC556;
-    margin: 0 0 3rem;
+    margin: 0 0 1rem;
 }
 
 .projects-text-p{
     font-family: 'Montserrat';
     color: #F7F9F8;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 .projects-button{
@@ -54,4 +54,13 @@
 
 .projects-button-padding{
     padding-top: 1.5rem;
+}
+
+.projects-text-icons-img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.projects-text-icons{
+    margin-bottom: 1.5rem;
 }

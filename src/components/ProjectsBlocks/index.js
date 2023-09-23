@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectBlocks.css';
-import imagem1 from '../../images/imagem1.jpg';
+import imagem1 from '../Resume/images//Imagem.svg';
 import html from '../../images/html.svg';
 import css from '../../images/css.svg';
 import javascript from '../../images/javascript.svg';
