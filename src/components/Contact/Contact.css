@@ -10,51 +10,89 @@
     color: #EBC556;
     font-size: 2.25rem;
     font-family: 'Krona One';
-    padding-bottom: 1.125rem;
     margin: 0;
-}
-
-.contact-information{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    padding: 0;
 }
 
 .contact-subtitle{
     color: #FFFFFF;
-    font-size: '2.25rem';
+    margin: 0 0 2.5rem 0;
+}
+
+.contact-bubble{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-bubble-p1{
+    margin: 0;
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    position: absolute;
+}
+
+.contact-bubble-span1{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
     font-family: 'Krona One';
+    margin: 0;
+    padding: 0.5rem 3.6rem 0.5rem 6.3rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    background-color: #EBC556;
 }
 
-.contact-information-container{
-    padding-bottom: 8rem;
+.contact-bubble-img1{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin: 0 0 0 24rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    position: absolute;
 }
 
-.contact-input-email,
-.contact-input-whatsapp {
-    background: transparent;
-    border: 1px solid #FFF;
-    padding: 1.2rem 6rem;
-    border-radius: 3.125em;
-    width: 10rem;
-    color: #FFF;
-    font-size: 1rem;
-    margin-bottom: 0.8rem;
+.contact-bubble-p2{
+    margin: 0;
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    position: absolute;
 }
 
-.contact-input-whatsapp::placeholder {
-    color: #FFF;
-    font-size: 1.4rem;
-    background: url('../../images/whatsapp.svg') no-repeat left center;
-    padding: 3em 3em 3em 2.5em;
-    background-size: auto 2rem; 
+.contact-bubble-span2{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Krona One';
+    margin: 0;
+    padding: 0.5rem 3.6rem 0.5rem 7.5rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    background-color: #EBC556;
 }
 
-.contact-input-email::placeholder {
-    color: #FFF;
-    font-size: 1.4rem;
-    background: url('../../images/emailBranco.png') no-repeat left center;
-    padding: 3em 3em 3em;
-    background-size: auto 2rem; 
+.contact-bubble-img2{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin: 0 0 0 19.7rem;
+    padding: 0.1rem 0.5rem 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+    position: absolute;
+}
+
+.contact-bubble-span1.clicado{
+    background-color: aqua;
 }
