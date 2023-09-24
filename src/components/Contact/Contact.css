@@ -16,7 +16,7 @@
 
 .contact-subtitle{
     color: #FFFFFF;
-    margin: 0 0 2.5rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .contact-bubble{
@@ -52,11 +52,10 @@
     height: 2rem;
     background-color: #FFFFFF;
     border-radius: 25px;
-    margin: 0 0 0 24rem;
+    margin: 0 0 0 -3rem;
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid #000000;
-    position: absolute;
 }
 
 .contact-bubble-p2{
@@ -87,12 +86,27 @@
     background-color: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 25px;
-    margin: 0 0 0 19.7rem;
+    margin: 0 0 0 -3rem;
     padding: 0.1rem 0.5rem 0.2rem 0.5rem;
     margin-bottom: 1rem;
-    position: absolute;
 }
 
-.contact-bubble-span1.clicado{
-    background-color: aqua;
+.contact-bubble-span1:hover,
+.contact-bubble-span2:hover{
+    cursor: pointer;
 }
+
+.clicado2,
+.clicado1 {
+    transition: background-color 0.7s;
+}
+
+.contact-bubble-span1.clicado1 {
+    background-color: #6FC6FF;
+}
+
+.contact-bubble-span2.clicado2 {
+    background-color: #6FC6FF;
+}
+
+

@@ -2,6 +2,7 @@
     background-color: #F7F9F8;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header-lista {
@@ -10,22 +11,28 @@
     padding: 0;
     justify-content: center;
     width: 100%;
+    margin-right: 5.5rem;
 }
 
 .header-li{
-    margin: 0 2.5rem 0 2.5rem;
+    padding: 0 2.5rem 0 2.5rem;
 }
 
 .header-link {
     text-decoration: none;
     color: #24292F;
-    margin-right: auto;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 1.2rem;
-    transition: transform 0.3s;
 }
 
-.header-link:hover {
-    text-decoration: overline;
+
+.header-li:hover {
+    text-decoration: underline;
+}
+
+.header-img{
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem 0 0.5rem 3rem;
 }

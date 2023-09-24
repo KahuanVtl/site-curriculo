@@ -55,7 +55,6 @@
     margin-top: 1rem;
     list-style: none;
     padding: 0;
-    transition: width 0.3s ease, height 0.3s ease;
 }
 
 .footer-container-ul-p1{
@@ -73,13 +72,17 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0 0 0;
+    text-decoration: underline;
 }
 
 .footer-container-li-p2{
     margin: 0.3rem;
-    text-decoration: underline;
-    color: #000000;
+    padding: 0 0.5rem 0 0.5rem;
+    text-decoration: #EBC556 underline;
+    color: #FFFFFF;
+    background-color: #24292F;
+    border-radius: 1rem;
 }
 
 .footer-container-li-p1{
@@ -119,6 +122,3 @@
     height: 3rem;
 }
 
-.footer-container-li-p2:hover{
-    font-size: 1.2rem;
-}

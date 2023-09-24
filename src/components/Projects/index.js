@@ -28,7 +28,7 @@ function Projects() {
                             <img src={reactIcon} alt='Icone do React' className='projects-text-icons-img' /> <img src={htmlIcon} alt='Icone do HTML' className='projects-text-icons-img' /> <img src={cssIcon} alt='Icone do CSS' className='projects-text-icons-img' /> <img src={javascriptIcon} alt='Icone do JAVASCRIPT' className='projects-text-icons-img' />
                         </div>
                         <div className='projects-button-padding'>
-                            <a href='/' className='projects-button'><Button></Button></a>
+                            <a href='https://organo-site-de-times.vercel.app/' className='projects-button'><Button></Button></a>
                         </div>
                     </div>
 
@@ -42,7 +42,7 @@ function Projects() {
                             <img src={reactIcon} alt='Icone do React' className='projects-text-icons-img' /> <img src={htmlIcon} alt='Icone do HTML' className='projects-text-icons-img' /> <img src={sassIcon} alt='Icone do SASS' className='projects-text-icons-img' /> <img src={javascriptIcon} alt='Icone do JAVASCRIPT' className='projects-text-icons-img' />
                         </div>
                         <div className='projects-button-padding'>
-                            <a href='/' className='projects-button'><Button></Button></a>
+                            <a href='https://alura-space-estudo.vercel.app/' className='projects-button'><Button></Button></a>
                         </div>
                     </div>
                     <div className='projects-image'>
@@ -62,7 +62,7 @@ function Projects() {
                             <img src={reactIcon} alt='Icone do React' className='projects-text-icons-img' /> <img src={htmlIcon} alt='Icone do HTML' className='projects-text-icons-img' /> <img src={cssIcon} alt='Icone do CSS' className='projects-text-icons-img' /> <img src={javascriptIcon} alt='Icone do JAVASCRIPT' className='projects-text-icons-img' />
                         </div>
                         <div className='projects-button-padding'>
-                            <a href='/' className='projects-button'><Button></Button></a>
+                            <a href='https://ola-mundo-nine-tau.vercel.app/' className='projects-button'><Button></Button></a>
                         </div>
                     </div>
 
