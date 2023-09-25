@@ -40,11 +40,11 @@ function Footer() {
                 <div className='coluna'>
                     <h2 className='footer-container-h2'>Redes sociais</h2>
                     <ul className='footer-container-ul-p3'>
-                        <a href='/'><img src={facebook} alt='Logo do Facebook' className='footer-container-images' /></a>
-                        <a href='/'><img src={github} alt='Logo do Github' className='footer-container-images' /></a>
-                        <a href='/'><img src={linkedin} alt='Logo do Linkedin' className='footer-container-images' /></a>
-                        <a href='/'><img src={medium} alt='Logo do Medium' className='footer-container-images' /></a>
-                        <a href='/'><img src={youtube} alt='Logo do Youtube' className='footer-container-images' /></a>
+                        <a href='https://www.facebook.com/profile.php?id=100006714610546&locale=pt_BR'><img src={facebook} alt='Logo do Facebook' className='footer-container-images' /></a>
+                        <a href='https://github.com/KahuanVtl'><img src={github} alt='Logo do Github' className='footer-container-images' /></a>
+                        <a href='https://www.linkedin.com/in/kahuan-vitelli/'><img src={linkedin} alt='Logo do Linkedin' className='footer-container-images' /></a>
+                        <a href='https://medium.com/@kahuanvitelli'><img src={medium} alt='Logo do Medium' className='footer-container-images' /></a>
+                        <a href='https://www.youtube.com/@kahuanvitelli'><img src={youtube} alt='Logo do Youtube' className='footer-container-images' /></a>
                     </ul>
                 </div>
             </div>
