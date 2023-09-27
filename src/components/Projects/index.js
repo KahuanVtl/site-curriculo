@@ -1,5 +1,6 @@
 import Button from '../Button';
 import './Projects.css';
+import React, { useState, useEffect } from 'react';
 
 import Esquerda from './images/IMAGEM TV CELULAR.svg';
 import Esquerda2 from './images/IMAGEM TV CELULAR 3.svg'
@@ -12,11 +13,30 @@ import javascriptIcon from '../../images/javascript.svg';
 import sassIcon from '../../images/sass.png';
 
 function Projects() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const element = document.querySelector('.projects-body');
+            const elementTop = element.getBoundingClientRect().top;
+
+            setIsVisible(elementTop < window.innerHeight - 100);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <div className='projects-body'>
+        <div className={`projects-body ${isVisible ? 'aparecendo' : ''}`}>
+
             <h2 className='projects-title'>Alguns de meus projetos</h2>
             <div>
-                <div className='projects-container'>
+                <div className='projects-container' key="projeto1">
 
                     <div className='projects-image'>
                         <img src={Esquerda} className='' alt='' />
@@ -33,7 +53,7 @@ function Projects() {
                     </div>
 
                 </div>
-                <div className='projects-container'>
+                <div className='projects-container' key="projeto2">
 
                     <div className='projects-text'>
                         <h2 className='projects-text-title'>Alura Space</h2>
@@ -50,7 +70,7 @@ function Projects() {
                     </div>
 
                 </div>
-                <div className='projects-container'>
+                <div className='projects-container' key="projeto3">
 
                     <div className='projects-image'>
                         <img src={Esquerda2} className='' alt='' />

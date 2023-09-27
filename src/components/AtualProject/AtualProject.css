@@ -3,7 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: opacity 1s ease;
 }
+
+.AtualProject-container.aparecendo {
+    opacity: 1;
+  }
 
 .AtualProject-title {
     font-family: 'Krona One';

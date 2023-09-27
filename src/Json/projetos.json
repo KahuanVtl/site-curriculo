@@ -1,0 +1,28 @@
+{
+    "projetos":[
+        {
+            "nome": "Organo",
+            "url":"./images/IMAGEM TV CELULAR.svg",
+            "imagemTecno1": "../../react.svg",
+            "imagemTecno2": "../images/html.svg",
+            "imagemTecno3": "./../images/css.svg",
+            "imagemTecno4": "../../images/javascript.svg"
+        },
+        {
+            "nome": "Alura Space",
+            "url":"./images/IMAGEM TV CELULAR 2.svg",
+            "imagemTecno1": "../../images/react.svg",
+            "imagemTecno2": "../../images/html.svg",
+            "imagemTecno3": "../../images/sass.png",
+            "imagemTecno4": "../../images/javascript.svg"
+        },
+        {
+            "nome": "Olá Mundo",
+            "url":"./images/IMAGEM TV CELULAR 3.svg",
+            "imagemTecno1": "../../images/react.svg",
+            "imagemTecno2": "../../images/html.svg",
+            "imagemTecno3": "../../images/css.svg",
+            "imagemTecno4": "../../images/javascript.svg"
+        }
+    ]
+}

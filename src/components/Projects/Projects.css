@@ -1,6 +1,12 @@
 .projects-body{
     background-color: #24292F;
     margin: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.projects-body.aparecendo{
+    opacity: 1;
 }
 
 .projects-title{

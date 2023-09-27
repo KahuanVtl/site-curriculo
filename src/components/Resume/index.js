@@ -1,9 +1,28 @@
 import './Resume.css';
+import React, { useState, useEffect } from 'react';
 import Perfil from './images/Imagem.svg';
 
 function Resume() {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const element = document.querySelector('.resume-container');
+            const elementTop = element.getBoundingClientRect().top;
+
+            setIsVisible(elementTop < window.innerHeight - 100);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
     return (
-        <div className='resume-container'>
+        <div className={`resume-container ${isVisible ? 'aparecendo' : ''}`}>
             <div className='resume-image'>
                 <img src={Perfil} alt='Autor Foto Perfil'></img>
             </div>
