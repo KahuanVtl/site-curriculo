@@ -1,6 +1,6 @@
 import './Resume.css';
 import React, { useState, useEffect } from 'react';
-import Perfil from './images/Imagem.svg';
+import Perfil from '../../images/Imagem.svg';
 
 function Resume() {
     const [isVisible, setIsVisible] = useState(false);

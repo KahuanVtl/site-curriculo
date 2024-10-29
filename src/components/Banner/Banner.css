@@ -1,11 +1,12 @@
 .banner-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #24292F;
+    display: flex; 
+    flex-direction: column; /* Banner deve ser vertical */
+    align-items: center; 
+    justify-content: center; 
+    background-color: #24292F; /* Manter a mesma cor de fundo */
+    padding: 20px; /* Adicione um padding se necessário */
 }
+
 
 .banner-nome, .banner-sobrenome {
     color: #FFFFFF;

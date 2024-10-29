@@ -1,0 +1,19 @@
+.botao-flutuante {
+  position: fixed; 
+  bottom: 20px;    
+  right: 20px;     
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px 20px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo de hover */
+.botao-flutuante:hover {
+  background-color: #0056b3;
+  padding: 20px 25px;
+}
