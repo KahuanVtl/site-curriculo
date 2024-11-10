@@ -1,0 +1,60 @@
+.HardSkill-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Krona One';
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.HardSkill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 0 2rem 0;
+    margin-top: 3rem;
+}
+
+.HardSkill-coluna {
+    flex-basis: 30%;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.HardSkill-images {
+    width: 100%;
+    height: auto;
+}
+
+.HardSkill-name {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: #FFF;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.HardSkill-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.HardSkill-icons-img {
+    width: 3rem;
+    padding: 0.1rem 0.5rem;
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+.HardSkill-icons-img:hover{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.HardSkill-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 0 ;
+}   

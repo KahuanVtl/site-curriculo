@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 6rem 8rem;
+  margin: 2rem 4rem;
 }
 
-.swiper-slide:not(.swiper-slide-active) {
+/* .swiper-slide:not(.swiper-slide-active) {
   opacity: 0.5;
-}
+} */
 
 .slide-item img {
   width: 100%;
